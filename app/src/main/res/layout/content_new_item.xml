@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gii.youfix.NewItemActivity"
+    tools:showIn="@layout/activity_new_item">
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/large_text" />
+
+        <Spinner
+            android:id="@+id/form_city"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_map_black_24dp"
+            android:drawableTint="#FF4081"
+            android:entries="@array/cities_array"
+            android:hint="Город"
+             />
+
+        <EditText
+            android:id="@+id/form_auto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_directions_car_black_24dp"
+            android:drawableTint="#FF4081"
+            android:hint="Марка Авто"
+             />
+
+        <EditText
+            android:id="@+id/form_year"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_insert_invitation_black_24dp"
+            android:drawableTint="#FF4081"
+            android:hint="Год выпуска"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/form_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:drawableTint="#FF4081"
+            android:hint="Телефон для связи"
+            android:inputType="phone"
+            />
+
+        <EditText
+            android:id="@+id/form_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_chat_bubble_outline_black_24dp"
+            android:drawableTint="#FF4081"
+            android:hint="Описание проблемы"
+            android:inputType="textMultiLine"
+            />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/photos_ll">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/form_button_photo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_camera_alt_black_24dp"
+            android:drawableTint="#FF4081"
+            android:hint="Добавить фото"
+            android:text="Добавить фото"
+            />
+
+        <Button
+            android:id="@+id/form_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:singleLine="true"
+            android:drawableLeft="@android:drawable/ic_menu_send"
+            android:drawableTint="#FF4081"
+            android:text="Отправить"
+            />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

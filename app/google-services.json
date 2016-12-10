@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "696759372546",
+    "firebase_url": "https://maxflow.firebaseio.com",
+    "project_id": "project-7889298654603008532",
+    "storage_bucket": "project-7889298654603008532.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696759372546:android:b953e7ec322c68ef",
+        "android_client_info": {
+          "package_name": "com.gii.easydraw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696759372546-emj1kbrbkp24k610ekrj2u2im3bg65cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFz2Li_mT4UHEHBKxM9VuNxQDNxd3Wu5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696759372546:android:638f9a723f18fdef",
+        "android_client_info": {
+          "package_name": "com.gii.youfix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696759372546-emj1kbrbkp24k610ekrj2u2im3bg65cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFz2Li_mT4UHEHBKxM9VuNxQDNxd3Wu5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FixMyCar Казахстан</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_item_list">Список</string>
+    <string name="title_item_detail">Подробности</string>
+    <string name="title_activity_new_item">Новая заявка на ремонт</string>
+    <string name="large_text">
+        "Новая заявка на ремонт\n\n"
+
+        "Опишите проблему как можно подробнее. Эту заявку увидят сразу несколько станций технического обслуживания. "
+        "Они должны будут по вашему описанию оценить ремонт вашего авто и предложить свою цену.\n\n"
+        "В случае, если у СТО будут дополнительные вопросы, они смогут задать их.\n"
+    </string>
+    <string-array name="cities_array">
+        <item>Алматы</item>
+        <item>Шымкент</item>
+        <item>Караганда</item>
+        <item>Тараз</item>
+        <item>Астана</item>
+        <item>Павлодар</item>
+        <item>Усть-Каменогорск</item>
+        <item>Семипалатинск</item>
+        <item>Актобе</item>
+        <item>Уральск</item>
+        <item>Костанай</item>
+        <item>Петропавловск</item>
+        <item>Темиртау</item>
+        <item>Кызылорда</item>
+        <item>Актау</item>
+        <item>Атырау</item>
+        <item>Экибастуз</item>
+        <item>Кокчетав</item>
+        <item>Рудный</item>
+        <item>Талды-Корган</item>
+    </string-array>
+</resources>
